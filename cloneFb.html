@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel= "stylesheet" type="text/css" href="cloneFb.css">
+    <link rel= "stylesheet"  href="cloneFb.css">
     <!-- <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet"> -->
     <!-- <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;700&display=swap" rel="stylesheet" -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;700&family=Raleway&display=swap" rel="stylesheet">
@@ -13,31 +13,24 @@
     <div class="topBar">
         <!-- the top bar designed here -->
         <div class="toprow">
-            <a href="cloneFb.html"><img ></a>
-            <!-- <div class="toprowtext">
-                facebook -->
-                <!-- adding facebook text here -->
-                <!-- 455/45 -->
-    
-            <!-- </div> -->
-            <!-- <a href="cloneFb.html">facebook</a> -->
-            <div class="namehover"> 
-                facebook
-            </div>
+           
             <!-- adding image ins -->
-            
+            <div class="facebooklogo">
+                <a href="cloneFb.html"><img id="facebooklogo" src="fblogo.png" width="45px" height="45px" ></a>
+            </div>
+            <div class="loginform">
+                <!-- adding login form in the topbar -->
+                <form>
+                    <label for="uname"> Email or phone:</label>
+                    <input type="text" id="uname" name="uname">
+                    <label for="pwd">Password:</label>
+                    <input type="password" id="pwd" name="pwd">
+                    <button id="loginbtn" name="loginbtn">log in</button>
+                </form>
+            </div>
         </div>
         
-        <div class="loginform">
-            <!-- adding login form in the topbar -->
-            <form>
-                <label for="uname"> Email or phone:</label>
-                <input type="text" id="uname" name="uname">
-                <label for="pwd">Password:</label>
-                <input type="password" id="pwd" name="pwd">
-                <button id="loginbtn" name="loginbtn">log in</button>
-            </form>
-        </div>
+        
     </div>
 </body>
 </html>

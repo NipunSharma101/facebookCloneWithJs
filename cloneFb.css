@@ -1,12 +1,15 @@
 .toprow{
-    height: 85px;
+    height: 65px;
     width: 100%;
-    background-color: #4267b2 ;
-    /* font-family: 'Noto Sans KR', sans-serif; */
+    background-color: #4267b2 ; 
+    font-family: 'Noto Sans KR', sans-serif; 
     font-family: 'Noto Sans KR', sans-serif;
     
+    
 }
-
+.facebooklogo{
+    position: absolute;
+}
 .namehover:hover {
     display: block;
     }
@@ -17,6 +20,10 @@
 }
 
 .loginform{
-    height: 20px;
+    height: 40px;
+    position: relative;
+    top: 45;
+    left: 850px;
     font-family: 'Raleway', sans-serif;
+    
 }
