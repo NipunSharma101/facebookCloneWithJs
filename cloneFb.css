@@ -7,6 +7,9 @@
     
 }
 
+.namehover:hover {
+    display: block;
+    }
 .toprowtext{
     height: 45px;
     width: 455px;
