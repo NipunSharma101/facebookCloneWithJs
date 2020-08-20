@@ -1,0 +1,19 @@
+.toprow{
+    height: 85px;
+    width: 100%;
+    background-color: #4267b2 ;
+    /* font-family: 'Noto Sans KR', sans-serif; */
+    font-family: 'Noto Sans KR', sans-serif;
+    
+}
+
+.toprowtext{
+    height: 45px;
+    width: 455px;
+
+}
+
+.loginform{
+    height: 20px;
+    font-family: 'Raleway', sans-serif;
+}
