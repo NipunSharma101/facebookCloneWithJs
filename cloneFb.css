@@ -3,27 +3,25 @@
     width: 100%;
     background-color: #4267b2 ; 
     font-family: 'Noto Sans KR', sans-serif; 
-    font-family: 'Noto Sans KR', sans-serif;
-    
     
 }
+
 .facebooklogo{
     position: absolute;
+    top: 10px;
+    left: 80px;
 }
-.namehover:hover {
-    display: block;
-    }
+
 .toprowtext{
     height: 45px;
     width: 455px;
-
+    top: 20px;
 }
 
 .loginform{
     height: 40px;
     position: relative;
-    top: 45;
+    top: 15px;
     left: 850px;
     font-family: 'Raleway', sans-serif;
-    
 }
